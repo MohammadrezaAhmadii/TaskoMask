@@ -17,7 +17,9 @@ namespace TaskoMask.Presentation.UI.UserPanel.Helpers
                 //close the modal if exist
                 if (modalInstance != null)
                     modalInstance.CloseAsync();
-
+                
+                //<Summary>
+                //<Summary>
 
                 //send a message to listeners
                 if (messageService != null && messageType != null)
